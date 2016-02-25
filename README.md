@@ -20,7 +20,6 @@ Include these lines in `app/assets/stylesheets/application.css.scss`:
 
 ```
 /*
- *= require font-awesome
  *= require foundation-datepicker
  */
 ```
@@ -33,9 +32,11 @@ Include this lines in `app/assets/javascripts/application.js`:
 //
 ```
 
+Note: to see the arrows and icons, please include [font-awesome](https://github.com/bokmann/font-awesome-rails) or [foundation-icons-sass-rails](https://github.com/zaiste/foundation-icons-sass-rails)
+
 Next, call the datepicker via javascript:
 
 
 `$('.datepicker').fdatepicker()`
 
-There are numerous options for the datepicker. You can find them [here](http://foundation-datepicker.peterbeno.com/example/example.html).
+There are numerous options for the datepicker. You can find them [here](http://foundation-datepicker.peterbeno.com/example.html).
